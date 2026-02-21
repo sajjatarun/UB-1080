@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: #f8fafc;
+}
+
+code, .mono { font-family: 'JetBrains Mono', monospace; }
+
+.ticket-badge {
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.05em;
+}
